@@ -1,0 +1,72 @@
+<!doctype>
+<html>
+<head>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" data-theme="b">
+    <div data-role="header" data-theme="b">
+        <h1>Javier Escacena</h1>
+    </div>
+
+
+<div data-role="collapsible-set">
+
+	<div data-role="collapsible" data-collapsed="false">
+	<h3>Section 1</h3>
+	<p>I'm the collapsible set content for section 1.</p>
+	</div>
+	
+	<div data-role="collapsible">
+	<h3>Section 2</h3>
+	<p>I'm the collapsible set content for section 2.</p>
+	</div>
+	
+</div>
+
+
+  	<div data-role="collapsible" data-collapsed="false">
+  		<h3>Datos personales</h3>
+  		<p>
+    		<ul>
+    			<li>Nombre completo: Javier Escacena Sánchez</li>
+    			<li>Fecha de nacimiento: 19-09-1973</li>
+    			<li>Tfno: 667616222</li>
+    			<li>Dirección: C/ de la Iglesia 32 , Cercedilla (Madrid)</li>
+    		</ul>       
+    	</p>
+  	</div>
+      
+      
+    <div data-role="content">
+        <ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="a">
+            <li data-role="list-divider">Curriculum Vitae</li>
+            <li>
+            	<div data-role="collapsible">
+            		<h2>Datos personales</h2>
+            		<ul>
+            			<li>Nombre completo: Javier Escacena Sánchez</li>
+            			<li>Fecha de nacimiento: 19-09-1973</li>
+            			<li>Tfno: 667616222</li>
+            			<li>Dirección: C/ de la Iglesia 32 , Cercedilla (Madrid)</li>
+            		</ul>       
+            	</div>
+            	<!--a href="datosPersonales.html" data-transition="slide">Datos personales</a-->
+            </li>
+            <li><a href="experiencia.html" data-transition="slideup">Experiencia</a></li>
+            <li><a href="formacion.html" data-transition="slidedown">Formación académica</a></li>
+            <li><a href="otrosConocimientos.html" data-transition="pop">Otros conocimientos</a></li>
+        </ul>
+        <br /><br />
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h1>© Javier Escacena</h1>
+    </div>
+</div>
+
+</body>
+</html>
+
